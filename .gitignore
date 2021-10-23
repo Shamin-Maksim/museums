@@ -1,4 +1,5 @@
 node_modules
+dist
 gulpfile.js
 howtouse.txt
 package-lock.json
