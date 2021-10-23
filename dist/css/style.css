@@ -25,6 +25,11 @@ a::after {
   height: 100%;
 }
 
+.d-grid a {
+  height: 100%;
+  width: 100%;
+}
+
 .page-content > .grid {
   display: grid;
 }
@@ -130,7 +135,7 @@ a::after {
   font-size: 20px !important;
 }
 
-/* 
+/*
 .justify {
    @media (max-width: 1919px) {
       grid-column: 1/3 !important;
@@ -145,7 +150,7 @@ a::after {
   column-gap: 2.5%;
   row-gap: 7px;
   align-items: center;
-  /* 
+  /*
   @media (max-width: 1919px) {
      grid-template-columns: 1fr 1fr;
   } */
