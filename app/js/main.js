@@ -9,4 +9,11 @@ new Swiper('.museum-swiper', {
    fadeEffect: {
       crossFade: true
    },
+   autoHeight: true,
+   breakpoints: {
+      // when window width is >= 320px
+      992: {
+         autoHeight: false
+      }
+   }
 });
