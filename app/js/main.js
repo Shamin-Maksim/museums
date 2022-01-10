@@ -11,9 +11,17 @@ new Swiper('.museum-swiper', {
    },
    autoHeight: true,
    breakpoints: {
-      // when window width is >= 320px
-      992: {
-         autoHeight: false
-      }
+      // when window width is >= 992px
+      //992: {
+      //   autoHeight: true,
+      //}
    }
+});
+
+$('.museum-button-next, .museum-button-prev').click(function () {
+   var
+      s = $('.slider-container').offset().top - 10;
+   $("body,html").animate({
+      scrollTop: s
+   }, 100);
 });
