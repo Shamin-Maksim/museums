@@ -4,7 +4,9 @@
   grid-template-rows: 360px 51px 298px 80px 56px;
   grid-gap: 13px;
   margin-top: 30px;
-
+  img {
+    object-fit: cover;
+  }
   .image-wrapper {
     &:nth-child(1) {
       grid-row: 1/5;

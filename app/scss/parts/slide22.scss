@@ -3,5 +3,8 @@
 
   img {
     width: 90%;
+    @media (max-width: 1919px) {
+      width: 100%;
+    }
   }
 }

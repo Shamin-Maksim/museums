@@ -1,10 +1,17 @@
+.d-flex-42 {
+  @media (max-width: 1919px) {
+    flex-direction: column;
+  }
+}
 .grid-42 {
   width: 100%;
   grid-template-columns: 460px 412px;
   grid-template-rows: 303px 226px 46px 328px;
   grid-gap: 10px;
   margin-top: 10px;
-
+  img {
+    object-fit: cover;
+  }
   .image-wrapper {
     &:nth-child(1) {
       grid-row: 1/3;

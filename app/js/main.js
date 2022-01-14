@@ -1,4 +1,9 @@
 new Swiper('.museum-swiper', {
+   /* mousewheel: {},
+   keyboard: {
+      enabled: true,
+      onlyInViewport: false,
+   }, */
    navigation: {
       nextEl: '.museum-button-next',
       prevEl: '.museum-button-prev'
